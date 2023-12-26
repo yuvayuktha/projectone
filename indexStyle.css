@@ -1,0 +1,585 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* --------------------------header----------------------------- */
+.header{
+    position:fixed;
+    width: 100%;
+    background-color: rgb(54, 50, 50);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header h1{
+   font-size: 24px;
+   color: white;
+   padding-left:30px;
+}
+.header span{
+    color: green;
+}
+.header a{
+   text-decoration: none;
+   background-color: rgb(51, 235, 51);
+   color: white;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-size: 14px;
+   border-radius: 5px;
+   margin-right:25px;
+}
+
+
+
+/* ------------------------------manu bar ----------------------- */
+.heads{
+   background-color: black;
+   padding-top: 50px;
+}
+.heads .ahead{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    /* font-weight: bolder; */
+    padding: 25px;
+    margin-left:5px;
+    margin-right:5px;
+    
+}
+.heads .log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.log i{
+    font-size: 30px;
+    padding-right: 8px;
+    margin-bottom: 5px;
+    color:rgb(201, 235, 51);
+}
+.heads .log p{
+    font-size:36px;
+}
+.heads li{
+    display: inline;
+    padding-right: 25px;
+}
+.heads .contactNumber{
+    padding-left  : 100px;
+}
+.heads .getintouch{
+    background-color: rgb(201, 235, 51);
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 2px;
+
+}
+
+.getintouch a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding:5px;
+}
+.mobile{
+    display: none;
+}
+.mobile .mmenu{
+    width: 30px;
+    height: 3px;
+    background-color: yellowgreen;
+    margin:3px 0;
+}
+/*-----------line-----------*/
+.line{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* ---------------text ---------------*/
+.text-container{
+    background-color: black;
+}
+.txt{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.txt h1{
+    font-size: 70px;
+    padding-left: 50px;
+    padding-right:300px;
+}
+.txt p{
+    padding-right: 100px;
+}
+.rotate{
+    position:sticky;
+    margin-left: 850px;
+    margin-top:-130px;
+
+}
+.text-container .back-img{
+  width:1325px;
+  margin-top: -145px;
+  margin-left: 10px;
+  margin-left: 10px;
+  
+}
+.scroll-img{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 140px;
+    padding-bottom:140px;
+}
+.scroll-img i{
+    font-size: 70px;
+    color: rgb(150, 148, 148);
+}
+.scroll-img i:hover{
+    color: white;
+}
+
+/*---------------------our services-------------------------*/
+.services-container{
+    background-color: rgb(223, 223, 223);
+}
+.services-container p {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: gray;
+}
+.services-container p span{
+   font-weight:bolder;
+}
+.services-container p,h1{
+    text-align: center;
+}
+.services-container h1{
+    font-size: 40px;
+}
+
+/* our service box */
+
+.box-container .box-inner{
+    background-color:rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+   
+}
+
+.box-container .col{
+    background-color: white;
+    width: 400px;
+    /* height: 400px; */
+    margin: 15px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.box-container .col i{
+    font-size: 90px;
+    color: gray;
+    padding-bottom: 100px;
+}
+.box-container .col h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+.box-container .btn{
+
+    background-color: rgb(191, 236, 26);
+    width: fit-content;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:70px;
+    padding-right: 30px;
+    height:30px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: 500ms;
+
+}
+.btn a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+    text-align:center;
+    padding-right:60px;
+}
+.box-container .btn i{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+
+}
+.box-container .btn:hover{
+     transition: 400ms;
+     transform: scale(1.05);
+     filter:brightness(1.2);
+     
+}
+
+.contact{
+    background-color: rgb(223,223, 223);
+    padding-top: 30px;
+    padding-left: 400px;
+    padding-bottom: 100px;
+    color: gray;
+}
+.contact span{
+    font-weight: bolder;
+    color: black;
+}
+
+
+/* -------------------------- about comapny --------------------- */
+.aboutcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutcontainer .aboutimg img{
+    width: 550px;
+}
+.aboutcontainer .aboutcontant{
+    padding-left: 150px;
+}
+.aboutcontainer .aboutcontant p {
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: gray;    
+  padding-bottom: 30px;
+}
+.aboutcontainer .aboutcontant h1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size:40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    line-height:1.2;
+}
+.aboutcontainer .aboutcontant #my{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    padding-top: 20px;
+   
+}
+.aboutcontainer .aboutcontant .btn-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(201, 235, 51);
+    width: fit-content;
+    padding: 10px 40px;
+}
+.aboutcontainer .aboutcontant .btn-about a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    transition: 400ms;
+    font-weight: bold;
+}
+.aboutcontainer .aboutcontant .btn-about:hover{
+   
+    transition: 400ms;
+    transform: scale(1.03);
+}
+
+
+/* building header image */
+
+.bulding .build{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+.build  .buildhead{
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.imgg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.imgg img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ff3d0036;
+    
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    transition: 400ms;
+    /* margin: 15px; */
+}
+.imgg img:hover{
+    /* filter: grayscale(1); */
+    transform: scale(1.03);
+}
+
+/*----------- OUR PHILOSOPHY -------*/
+
+.philcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    padding-bottom: 100px;
+}
+.philcontainer .ourtext{
+    margin-top:150px;
+    margin-left: 20px;
+}
+.philcontainer .ourtext p{
+    font-family: sans-serif;
+    color: gray;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+.philcontainer .ourtext .h22{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+   
+}
+.philcontainer .ourtext .philp{
+    padding-top: 30px;
+    color: rgb(56, 53, 53);
+}
+
+.title{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+.title p{
+    
+    font-family: sans-serif;
+}
+.archani .line{
+    width:600px;
+    height:2px;
+    background-color: rgb(65, 68, 68);
+    
+}
+
+/* profile */
+.profileContainer{
+    background-color:rgb(223, 223, 223);
+    padding-bottom: 120px;
+}
+.profileContainer  .txtpro{
+    font-weight: bold;
+    color: rgb(53, 52, 52);
+    text-align: center;
+    padding-top: 140px;
+}
+.txtpro h1{
+    color: black;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+.profileContainer .profile{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+     /* background-color: rgb(100, 46, 46); */
+     margin-bottom: 30px;
+     margin-left: 20px;
+     margin-right: 20px;
+     
+}
+.profileContainer .profile .propic {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.profileContainer .profile .propic img{
+   width: 250px; 
+   border: 5px solid forestgreen; 
+   border-radius: 50%;  
+}
+.propic h2{
+    padding-top: 20px;
+}
+.propic h2,p{
+    text-align: center;
+}
+
+.quts{
+  background-color: black;
+  width: 100%;
+  height: 500px;
+}
+.quts .qu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.qu i{
+    font-size: 70px;
+    color: yellow;
+    padding-bottom: 40px;
+}
+.qu .parara{
+   width:70%;
+  font-size:25px;
+  padding-left: 150px;
+  padding-right: 150px;
+
+  padding-bottom: 40px;
+  border-bottom: 2px solid rgb(58, 57, 57);
+}
+.qu .name{
+    
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+   
+}
+  
+/* LATEST ARTICLES */
+  .artical{
+    background-color: rgb(223, 223, 223);
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+.artical .textart{
+    text-align: center;
+}
+.artical .textart p{
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.artical .textart h1{
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.artical .artimg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 150px;
+   overflow: hidden;
+   
+
+}
+.artical .artimg .imga{
+    width: 400px;
+    background-color: whitesmoke;
+}
+.artical .artimg .imga img{
+    width: 400px;
+}
+.artical .artimg .imga h2,p{
+    text-align: center;
+}
+.artical .artimg .imga .p1{
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.artical .artimg .imga h2{
+  
+    text-align: left;
+    padding-left: 40px;
+   
+}
+.artical .artimg .imga .p2{
+   margin-top: 20px;
+   margin-bottom: 30px;
+   width: 100px;
+   margin-left: 150px;
+   border: 2px solid black;
+   padding: 5px;
+}
+.artical .artimg .imga .p2:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+.bord{
+    margin-top: 100px;
+    padding-bottom:80px;
+}
+.bord p{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: gray;
+}
+
+.bord h1{
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+.bord a{
+    text-decoration: none;
+    margin-left: 550px;
+    margin-top: 30px;
+    background-color: rgb(223, 223, 33);
+    padding:10px 20px;
+    color:gray;
+    font-weight: bolder;
+}
+
+/* footer */
+
+.foodcontainer{
+    background-color: black;
+    color: whitesmoke;
+    
+}
+.foodcontainer .firstcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+.firstcon .rowww1 img{
+   padding-bottom: 20px;
+}
+.firstcon .rowww1 .mail{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.firstcon .rowww2 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
